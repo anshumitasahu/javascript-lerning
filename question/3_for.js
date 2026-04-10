@@ -162,7 +162,7 @@
 //     }
 // }
 
-// 1. square pattern
+// // 1. square pattern
 // let n = 5;
 
 // for(i = 1; i <= n; i++) {
@@ -173,7 +173,7 @@
 //     console.log(output)
 // }
 
-// 2. Right anglrd triangle
+// // 2. Right anglrd triangle
 // let n = 5;
 // for(i = 1; i <= n; i++) {
 //     let output = "";
@@ -183,7 +183,7 @@
 //     console.log(output)
 // }
 
-// 3. Inverted right angled triangle
+// // 3. Inverted right angled triangle
 // let n = 5;
 // for(i = n; i >= 1; i--) {
 //     let output = "";
@@ -193,7 +193,7 @@
 //     console.log(output)
 // }
 
-// 4. sequenttial number triangle
+// // 4. sequenttial number triangle
 // let n = 5;
 // for(i = 1; i <= n; i++) {
 //     let output = "";
@@ -215,12 +215,12 @@
 //     console.log(output);
 // }
 
-// // 6. Reverse Floyd's Triangle
-// n = 5;
-// for( i = 1; i <= n; i++) {
-//     let output = "";
-//     for(j = i; j >= 1; j--){
-//         output += j + " ";
-//     }
-//     console.log(output);
-// }
+// 6. Reverse Floyd's Triangle
+let n = 5;
+for( i = 1; i <= n; i++) {
+    let output = "";
+    for(j = i; j >= 1; j--){
+        output += j + " ";
+    }
+    console.log(output);
+}
