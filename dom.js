@@ -49,5 +49,5 @@ searchBtn.onclick = () => {
             <a href="https://www.google.com/search?q=${inputVal}"> i dont know, but click me you will know </a>
             `;
         }
-    }
+    }1
 }
