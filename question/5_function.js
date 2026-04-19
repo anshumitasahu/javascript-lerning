@@ -33,7 +33,7 @@
 // }
 // console.log (area(radius))
 
-// // array:
+// // // array:
 // let numbers = [1, 35, 22, 100, 26, 991, 10];
 // let max = numbers[0];
 // for (i = 0; i < numbers.length; i++) {
@@ -106,123 +106,186 @@
 // }
 // sayHello (" Anshu");
 
-// #task1:
-function greet(hello) {
-    console.log("Good " + hello);
-}
-greet("Morning");
+// // #task1:
+// function greet(hello) {
+//     console.log("Good " + hello);
+// }
+// greet("Morning");
 
-// #task2:
-function square(num) {
-    console.log(num * num);
-}
-square(5);
+// // #task2:
+// function square(num) {
+//     console.log(num * num);
+// }
+// square(5);
 
-// #task3 : 
-function sayBigger(a, b) {
-    if (a < b) {
-        console.log("b is bigger " + b);
-    } else if (a > b) {
-        console.log("a is bigger " + a);
-    }
-}
-
-sayBigger(1, 2);
-
-
-// Q1:
-function sayHello() {
-    console.log("Hello World");
-}
-sayHello();
-
-// Q2;
-function print(num) {
-    console.log("Number is: " + num);
-}
-print(5);
-
-// Q3:
-function evenOdd(number) {
-    if (number % 2 == 0) {
-        console.log("Even " + number)
-    } else if (number % 2 !== 0) {
-        console.log("Odd " + number)
-    } else {
-        console.log("Not A Number")
-    }
-}
-evenOdd(8);
-
-// Q4:
-function input(numb) {
-    if (numb > 0) {
-        console.log("Positive: " + numb)
-    } else if (numb < 0 && numb !== 0) {
-        console.log("Negative: " + numb)
-    } else if (numb == 0) {
-        console.log("Zero: " + numb)
-    }
-};
-input(583);
-
-// Q5 
-function addSub(a, b) {
-    console.log("Sum is: " + a + b);
-    console.log("Difference is: " + (a - b))
-};
-addSub(5, 2);
-
-// Q6: 
-// let arry = [1, 3, 2];
-// let max = 0;
-// function bigGuy() {
-//     for (i = 0; i <= arry.length; i++) {
-//         if (max < arry[i]) {
-//             max == arry[i];
-//         }
+// // #task3 : 
+// function sayBigger(a, b) {
+//     if (a < b) {
+//         console.log("b is bigger " + b);
+//     } else if (a > b) {
+//         console.log("a is bigger " + a);
 //     }
-//     console.log(arry[i]);
+// }
+
+// sayBigger(1, 2);
+
+
+// // Q1:
+// function sayHello() {
+//     console.log("Hello World");
+// }
+// sayHello();
+
+// // Q2;
+// function print(num) {
+//     console.log("Number is: " + num);
+// }
+// print(5);
+
+// // Q3:
+// function evenOdd(number) {
+//     if (number % 2 == 0) {
+//         console.log("Even " + number)
+//     } else if (number % 2 !== 0) {
+//         console.log("Odd " + number)
+//     } else {
+//         console.log("Not A Number")
+//     }
+// }
+// evenOdd(8);
+
+// // Q4:
+// function input(numb) {
+//     if (numb > 0) {
+//         console.log("Positive: " + numb)
+//     } else if (numb < 0 && numb !== 0) {
+//         console.log("Negative: " + numb)
+//     } else if (numb == 0) {
+//         console.log("Zero: " + numb)
+//     }
 // };
-// bigGuy(max);
+// input(583);
+
+// // Q5 
+// function addSub(a, b) {
+//     console.log("Sum is: " + a + b);
+//     console.log("Difference is: " + (a - b))
+// };
+// addSub(5, 2);
+
+// // Q6: 
+// // let arry = [1, 3, 2];
+// // let max = 0;
+// // function bigGuy() {
+// //     for (i = 0; i <= arry.length; i++) {
+// //         if (max < arry[i]) {
+// //             max == arry[i];
+// //         }
+// //     }
+// //     console.log(arry[i]);
+// // };
+// // bigGuy(max);
 
 
-function bigGuy(a, b, c) {
-    if (a < b && b < c) {
-        console.log("Biggest among all is: " + c)
-    } else if (a < b && b > c) {
-        console.log("Bigger number among all is: " + b)
-    } else if (a > b && b > c) {
-        console.log("Bigger number among all is: " + a)
-    } else if (a > b && b < c && a > c) {
-        console.log("Bigger among all the number is: " + a)
-    } else if (a > b && b < c && a < c) {
-        console.log("Bigger number among all is: " + c)
-    }
-}
-bigGuy(1, 23, 12);
+// function bigGuy(a, b, c) {
+//     if (a < b && b < c) {
+//         console.log("Biggest among all is: " + c)
+//     } else if (a < b && b > c) {
+//         console.log("Bigger number among all is: " + b)
+//     } else if (a > b && b > c) {
+//         console.log("Bigger number among all is: " + a)
+//     } else if (a > b && b < c && a > c) {
+//         console.log("Bigger among all the number is: " + a)
+//     } else if (a > b && b < c && a < c) {
+//         console.log("Bigger number among all is: " + c)
+//     }
+// }
+// bigGuy(1, 23, 12);
 
-// Q7 :
-function multiplication(a) {
-    for (i = 0; i <= 5; i++) {
-        let product = a * i
-        console.log(a + " ✕ " + i + " = " + product)
-    }
-}
-multiplication(2);
+// // Q7 :
+// function multiplication(a) {
+//     for (i = 0; i <= 5; i++) {
+//         let product = a * i
+//         console.log(a + " ✕ " + i + " = " + product)
+//     }
+// }
+// multiplication(2);
 
-// Q8:
-function factorial(x) {
-    let result=1;
-for (i= 1; i<=x ; i++ ){
-    result = result * i;
-}
-console.log("factorial of " + x + " is " + result)
-}
-factorial(5);
+// // Q8:
+// function factorial(x) {
+//     let result=1;
+// for (i= 1; i<=x ; i++ ){
+//     result = result * i;
+// }
+// console.log("factorial of " + x + " is " + result)
+// }
+// factorial(5);
 
 
 // day 2:
 
 // Q1: Print 1 to 10 using loops
-// function 
+function loop() {
+    for (let i = 1; i <= 10; i++) {
+        console.log(i)
+    }
+};
+loop();
+
+// Q2:
+let num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+num.reverse()
+console.log(num)
+// or
+function reversing() {
+    for (let i = 10; i >= 1; i--) {
+        console.log(i)
+    }
+}
+reversing();
+
+console.log("hello");
+
+// Q3 :
+function evenNum() {
+    for (let i = 1; i <= 20; i++) {
+        if (i % 2 == 0) {
+            console.log(i)
+        }
+    }
+}
+evenNum();
+
+// Q4:
+function divi(a) {
+    if (a % 3 == 0) {
+        console.log(a + " is divisible with three");
+    } else {
+        console.log(a + " is not divisible by three")
+    }
+}
+divi(2);
+
+// Q5:
+function add() {
+    let sum = 0;
+    for (let i = 1; i <= 10; i++) {
+        sum = sum + i;
+    }
+    console.log("sum of 1 to 10 is " + sum)
+}
+add();
+
+// Q6: 
+function addEven() {
+    let sum = 0;
+    for (let i = 0; i <= 20; i++) {
+        if (i % 2 == 0) {
+            sum = sum + i;
+        }
+    }
+    console.log("the sum of only even numbers from 1 to 20 is " + sum)
+}
+addEven();
+
+// Q7:
