@@ -289,3 +289,12 @@ function addEven() {
 addEven();
 
 // Q7:
+// function reversed ( abc) {
+//     console.log(abc)
+// }
+// reversed(123)
+// failed!!
+
+// Q8 (cant remember the question)
+// Q9 (cant remember the question)
+// 10 (unable to solve early give up!)

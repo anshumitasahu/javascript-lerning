@@ -108,3 +108,18 @@
 //     return h1 + h2
 // });
 // console.log(a);
+
+// let max= 100;
+// let randomInt = Math.floor(Math.random() * max);
+// console.log(randomInt);
+// let cn = randomInt;
+// console.log(cn);
+// let i;
+// while (i != cn) {
+//     i = prompt("Enter your Number");
+//     if (i < cn) {
+//         console.log(i + " is less than the actual number")
+//     } else if ( i > cn ) {
+//         console.log (i + " is more than the actual number")
+//     }
+// } console.log("You have entered the correct number") ;
