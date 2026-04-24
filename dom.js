@@ -78,8 +78,8 @@
 // }
 // console.log(t);
 // const result = (x, y, z) => {
-    // let sum = x + y + z;
-    // console.log(sum);
+// let sum = x + y + z;
+// console.log(sum);
 // }
 // setTimeout(result, 2000, 1, 2, 4);
 // setInterval(result, 2000, 1, 2, 4);
@@ -91,10 +91,55 @@
 //     let url = "https://x.com/home";
 //     let win = window.open(url, "", "width=500,height=500,scrollbars=yes,resize=yes")
 // })
-let a = document.querySelector("#bulb")
-setInterval(async function() {
-    document.querySelector("#bulb").classList.toggle("bulb")
-}, 500)
-console.log(a.classList)
-a.classList.remove("bulb")
-console.log(a.classList)
+// let a = document.querySelector("#bulb")
+// setInterval(async function() {
+//     document.querySelector("#bulb").classList.toggle("bulb")
+// }, 500)
+// console.log(a.classList)
+// a.classList.remove("bulb")
+// console.log(a.classList)
+
+// callbacks 
+// function loadScript(src, callback) {
+//     var script = document.createElement("script");
+//     script.src = src;
+//     script.onload = function () {
+//         console.log("loaded script with src: " + src);
+//         callback(null, src);
+//     }
+//     script.onerror = function () {
+//         console.log("error loading script with src: " + src);
+//         callback(new Error("src got some error"))
+//     }
+//     document.body.appendChild(script);
+// }
+// function hello(Error, src) {
+//     if (Error) {
+//         console.log(Error)
+//         return
+//     }
+//     alert('hello world ' + src);
+// }
+
+// function goodmornig(Error, src) {
+//     if (Error) {
+//         console.log(Error);
+//         sendEmergencyMessageToCeo();
+//         return
+//     }
+//     alert('good morning ' + src);
+// }
+
+// loadScript("https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js", goodmornig);
+// let promise = new Promise(function (resolve, reject) {
+//     alert("heloo");
+//     resolve(56)
+// })
+
+// console.log("Hello 1");
+// setTimeout(function () {
+//     console.log("Hello 2 (in 2 secs)")
+// }, 2000)
+
+// console.log("my name is Anshumita " + "Hello 3)")
+// console.log(promise);
