@@ -143,3 +143,94 @@
 
 // console.log("my name is Anshumita " + "Hello 3)")
 // console.log(promise);
+
+// let p1 = new Promise((resolve, reject) => {
+//     console.log("pending");
+//     setTimeout(()=>{
+//         alert("I am a promise and I am accepted");
+//         resolve(true);
+//         // reject(new Error("I am an error"))
+//         console.log(p1)
+//     }, 5000);
+// })
+
+// let p2 = new Promise((resolve, reject) => {
+//     console.log("pending");
+//     setTimeout(()=>{
+//         alert("I am a promise and I am rejected");
+//         // resolve(true);
+//         reject(new Error("I am an error"))
+//         console.log(p2)
+//     }, 5000);
+// })
+
+
+// console.log(p1);
+// // console.log(p2);
+// p1.then((value) => {
+//     console.log("promise fullfiled: " + value)
+// })
+
+
+// p2.catch((Error) => {
+//     console.log("some error occurred")
+// })
+
+// let p1 = new Promise((resolve, reject) => {
+//     console.log("pending");
+//     setTimeout(()=>{
+//         console.log("I am a promise and I am accepted");
+//         resolve(true);
+//         // reject(new Error("I am an error"))
+//         console.log(p1)
+//     }, 2000);
+// })
+// p1.then((value) => {
+//     console.log("promise fullfiled " + value);
+//     let p2 = new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             resolve("promise 2")
+//         }, 2000);
+//     })
+//     return p2;
+// }).then((value) => {
+//     console.log("we are done");
+//     return 2;
+// }).then((value) => {
+//     console.log("We are pakka done");
+// });
+
+// const loadScript = (src) => {
+//     return new Promise((resolve, reject) => {
+//         let script = document.createElement("script")
+//         script.type = "text/javascript"
+//         script.src = src
+//         document.body.appendChild(script)
+//         script.onload = () => {
+//             resolve(1);
+//         }
+//         script.onerror = () => {
+//             reject(0);
+//         }
+//     })
+// }
+
+// let p1 = loadScript("https://cdn.jsdelivr  j.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js")
+// p1.then((value) => {
+//     console.log(value)
+// }).catch((error) => {
+//     console.log("we are sorrry but we are having problems in loading the script")
+// });
+
+// let p1 = new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//         alert("i am resolved")
+//         resolve(1);
+//     }, 2000)
+// })
+// p1.then(() => {
+//     console.log("crongrats")
+// })
+// p1.then(() => {
+//     alert("Huray")
+// })
