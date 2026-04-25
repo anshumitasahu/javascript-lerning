@@ -66,3 +66,26 @@
 // arr.push(a)
 // console.log(arr);
 
+// q1
+let color = ["Green", "Yellow", "Pink"];
+console.log(color[0]);
+
+// q2
+let num = [11, 22, 33, 44, 55];
+console.log(num[num.length - 1]);
+
+// q3
+let arr = ["a", "b", "c"];
+arr[1] = "z";
+console.log(arr);
+
+// q4
+let fruits = ["apple", "banana"];
+fruits[2] = "grapes";
+console.log(fruits);
+
+// q5
+let nums = [1, 2, 3, 4];
+for(i = 0; i < nums.length; i++) {
+    console.log (nums[i]);
+};
